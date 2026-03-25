@@ -8,7 +8,8 @@ const Loginpage = () => {
     const [name, setName] = useState('')
     const [password, setPassword] = useState('')
 
-    
+    const n = localStorage.getItem("name")
+    const p = localStorage.getItem("password")
 
     return (
         <div className="app">
@@ -17,12 +18,20 @@ const Loginpage = () => {
 
                 <div className="login_container">
                     <label className="input_label"> Username </label>
-                    <input type="username" name="username" id="username" className='input_field' required />
+                    <input type="username" name="username" id="username" className='input_field' required 
+                    onChange={(e) => {
+                        setName(e.target.value)
+                    }}
+                    />
                 </div>
 
                 <div className="input_container">
                     <label className="input_label"> Password</label>
-                    <input type="password" name="password" id="password" className='input_field' required />
+                    <input type="password" name="password" id="password" className='input_field' required  
+                    onChange={(val) => {
+                        setPassword(val.target.value)
+                    }}
+                    />
                 </div>
 
                 <div className="btn_div">
