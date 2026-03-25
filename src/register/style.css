@@ -1,0 +1,26 @@
+/* .app {
+    background-color: black;
+    color: black;
+} */
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: black;
+}
+
+.input_label{
+    color: black;
+}
+
+.btn_div {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    margin: 10px;
+    /* background-color: aqua; */
+}   

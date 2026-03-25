@@ -1,0 +1,70 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e5e7eb;
+
+}
+
+
+.login {
+    background-color: #f3f4f6;
+    padding: 30px;
+    width: 260px; 
+    border-radius: 10px;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+
+.input_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+.input_label {
+    
+    align-items: center; 
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+
+.input_field {
+    width: 160px;  
+    padding: 6px;
+    border: 1px solid #ccc;
+}
+
+.login_container{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.btn {
+    background-color: #10b981;   
+    color: white;
+    padding: 8px 18px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.btn_div {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
